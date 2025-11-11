@@ -126,3 +126,43 @@ ol li::before {
   border-radius: 50%;
   font-size: 0.9em;
 }
+
+
+/* Mobile View: Full width (100vw) */
+@media (max-width: 768px) {
+  html {
+    padding: 20px; 
+  }
+
+  .cardcontainer {
+    padding: 0;
+  }
+
+  .page-bg,
+  .recipe-card {
+    width: 90vw;           
+  
+    
+  }
+
+  .page-bg {
+    border-radius: 0;
+    padding: 15px;
+    min-height: 35vh;
+  }
+
+  .recipe-card {
+    margin: -60px 0 0;      
+    padding: 15px;
+    border-radius: 20px 20px 0 0;
+    
+  }
+
+  img {
+    max-width: 80vw;        
+  }
+
+  hr {
+    margin: 20px 15px;
+  }
+}
